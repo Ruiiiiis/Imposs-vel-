@@ -223,7 +223,7 @@ function CharacterCard({ data }: { data: CharacterCardData }) {
         </Badge>
       )}
       {role && (
-        <Badge variant="outline" className="border-slate-700 text-slate-300">
+        <Badge  className="border-slate-700 text-slate-300">
           {role}
         </Badge>
       )}
